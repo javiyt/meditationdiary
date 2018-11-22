@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Meditation Diary</string>
+    <string name="label_meditationDateAndTime">Seleccione Fecha y Hora</string>
+    <string name="date_format">dd/mm/yyyy</string>
+    <string name="time_format">hh:mm</string>
+    <string name="notes">Meditation Notes</string>
+    <string name="button_save">Guardar</string>
+</resources>
