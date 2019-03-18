@@ -30,7 +30,7 @@ dependencies {
 
     testImplementation 'junit:junit:4.12'
     testImplementation 'com.nhaarman.mockitokotlin2:mockito-kotlin:2.1.0'
-    testImplementation 'org.mockito:mockito-inline:2.25.0'
+    testImplementation 'org.mockito:mockito-inline:2.25.1'
     testImplementation 'net.wuerl.kotlin:assertj-core-kotlin:0.2.1'
 
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
