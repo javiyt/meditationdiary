@@ -3,14 +3,14 @@ package yt.javi.meditationdiary.fragments
 import android.app.DatePickerDialog
 import android.app.Dialog
 import android.os.Bundle
-import android.support.v4.app.DialogFragment
+import androidx.fragment.app.DialogFragment
 import android.widget.DatePicker
 import kotlinx.android.synthetic.main.activity_main.*
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.*
 
-class DatePickerFragment : DialogFragment(), DatePickerDialog.OnDateSetListener {
+class DatePickerFragment : androidx.fragment.app.DialogFragment(), DatePickerDialog.OnDateSetListener {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
         return DatePickerDialog(context!!, this, Calendar.getInstance().get(Calendar.YEAR),
