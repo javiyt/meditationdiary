@@ -13,7 +13,7 @@ import java.util.*
 class DatePickerFragment : DialogFragment(), DatePickerDialog.OnDateSetListener {
 
     override fun onCreateDialog(savedInstanceState: Bundle?): Dialog {
-        return DatePickerDialog(activity, this, Calendar.getInstance().get(Calendar.YEAR),
+        return DatePickerDialog(context!!, this, Calendar.getInstance().get(Calendar.YEAR),
             Calendar.getInstance().get(Calendar.MONTH), Calendar.getInstance().get(Calendar.DAY_OF_MONTH)
         )
     }
